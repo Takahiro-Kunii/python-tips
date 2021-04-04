@@ -1,12 +1,12 @@
 # CでPythonから使えるモジュールを書くには
 
-* Python C APIを使う
+* [Python C API](https://docs.python.org/ja/3/extending/extending.html)を使う
 
 例）Cでwxyというモジュールを作る
 ```
 import wxy
 
-wxy.use('start')
+wxy.hello()
 ```
 ### 流れ
 1. Python C API（Python.h）を使いC/C++でモジュール`wxy`作成
